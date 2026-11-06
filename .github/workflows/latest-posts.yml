@@ -1,0 +1,40 @@
+name: Latest posts
+
+on:
+  schedule:
+    - cron: "43 6 * * *" # daily, 06:43 UTC
+  workflow_dispatch:
+  repository_dispatch:
+    types: [site-published]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: latest-posts
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Update README from site feed
+        run: python scripts/update_latest_posts.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: update latest posts"
+          git pull --rebase
+          git push

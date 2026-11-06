@@ -1,33 +1,29 @@
-<h1 align='center'>
+<h1 align="center">
   Hi there 👋 I'm Chris McCarthy 👨‍💻
 </h1>
 
 ## About Me
 
-- 💻 Engineering Lead [@MethodsAnalytics](https://github.com/methodsanalytics)
+- 💻 Engineering & Architecture Lead for Data & AI at [@MethodsAnalytics](https://github.com/methodsanalytics)
+- ⛵ Founder of [@foyboat](https://github.com/foyboat) ([foyboat.co.uk](https://foyboat.co.uk))
 - 👯 Looking to collaborate on open source software
 
 ## Connect With Me
 
-<p >
-  <a href="https://www.linkedin.com/in/c-a-mccarthy/">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+<p>
+  <a href="https://chrismccarthydev.uk">
+    <img alt="Website" src="https://img.shields.io/badge/website-chrismccarthydev.uk-222?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/c-a-mccarthy/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </p>
 
+<!-- LATEST-POSTS:START --><!-- LATEST-POSTS:END -->
 
-## Actively Contributing To
+## GitHub Streak
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dstl&repo=YAWNING-TITAN&theme=dracula)](https://github.com/dstl/YAWNING-TITAN)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Autonomous-Resilient-Cyber-Defence&repo=PrimAITE&theme=dracula)](https://github.com/Autonomous-Resilient-Cyber-Defence/PrimAITE)
-
-
-## GitHub Stats
-![ChrisMcCarthyDev's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChrisMcCarthyDev&theme=dracula&include_all_commits=true&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
-
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=ChrisMcCarthyDev&theme=dracula&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-
+[![GitHub Streak](https://streak-stats.demolab.com?user=ChrisMcCarthyDev&theme=dracula&date_format=j%20M%5B%20Y%5D)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
 <!--
 **ChrisMcCarthyDev/ChrisMcCarthyDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
